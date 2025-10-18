@@ -17,7 +17,7 @@ public class Equipo extends Competencia {
     private ArrayList<Competidor> competidores;
 
     public Equipo(String nombreEquipo, String pais) {
-        super(""); // no necesitamos el nombre del evento aquí
+        super("");
         this.nombreEquipo = nombreEquipo;
         this.pais = pais;
         competidores = new ArrayList<>();
