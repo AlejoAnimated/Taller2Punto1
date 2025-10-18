@@ -23,8 +23,8 @@ public class Equipo extends Competencia {
         competidores = new ArrayList<>();
     }
 
-    public void agregarCompetidor(Competidor competidor) {
-        competidores.add(competidor);
+    public void agregarCompetidor(Competidor competidoor) {
+        competidores.add(competidoor);
     }
 
     public ArrayList<Competidor> getCompetidores() {
